@@ -116,14 +116,14 @@ background-color: red;
 color: white;
 position: relative;
 }
-blockquote{
-    margin-top: 20px;
-}
+
 blockquote:after {
+    margin-left: 30%;
    content: attr(cite);
    font-size: 75%;
    right: 3em;
  }
+
 article:before {
     content: url(../smashbackground.svg);
     position: absolute;
@@ -163,17 +163,11 @@ video, img {
     display: none;
   }
   
-   #wikiInfo .mw-headline {
+  #wikiInfo .mw-headline {
     display: inline;
     margin-left: 200px;
   }
- /* #References, #See_also, #External_links {
-    font-size: 14px;
-    margin: 10px;
-    padding: 10px;
-    display: none;
-    visibility: hidden;
-  }*/
+
 
 /*-----------------------Typography----------------------*/
 

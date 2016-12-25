@@ -1,4 +1,4 @@
-$(document).ready(function(){
+/*$(document).ready(function(){
  
     $.ajax({
         type: "GET",
@@ -16,5 +16,5 @@ $(document).ready(function(){
         error: function (errorMessage) {
         }
     });
-});
+});*/
   
